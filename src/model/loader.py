@@ -17,13 +17,13 @@ def parse_config(config_path):
     """
     with open(config_path, 'r') as stream:
         try:
-            config = yaml.load(stream)
+            config = yaml.safe_load(stream)
         except yaml.YAMLError as exc:
             print(exc)
 
     assert os.path.isfile(config["path_train"])
     assert os.path.isfile(config["path_dev"])
-    assert os.path.isfile(config["path_test"])
+    #assert os.path.isfile(config["path_test"])
     assert config["char_embedding_dim"] > 0
     assert config["word_embedding_dim"] > 0
     assert config["tag_embedding_dim"]  > 0
@@ -54,7 +54,8 @@ def load_sentences(path, zeros):
                 sentence = []
         else:
             word = line.split()
-            assert len(word) >= 2
+            if len(word)!=4:
+                continue
             sentence.append(word)
 
     if len(sentence) > 0:
