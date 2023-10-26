@@ -29,8 +29,9 @@ def main(config_path):
     args = parse_config(config_path)
 
     # Load sentences
-    train_sentences = load_sentences(args["path_train"], args["replace_digit"])[:675]
-    dev_sentences = train_sentences[675:]
+    all_sentences = load_sentences(args["path_train"], args["replace_digit"])
+    train_sentences=all_sentences[:675]
+    dev_sentences = all_sentences[675:]
 
     # Update tagging scheme (IOB/IOBES)
     update_tag_scheme(train_sentences, args["tag_scheme"])
@@ -79,12 +80,11 @@ def main(config_path):
         print("Loading pretrained embedding...")
         model.load_pretrained(args['path_pre_emb'])
 
-    result_path = '../result/'
-
+    result_path = '/content/layered-bilstm-crf/result/'
     # Init Iterators
     train_iter = chainer.iterators.SerialIterator(train_data, model.batch_size)
     dev_iter = chainer.iterators.SerialIterator(dev_data, model.batch_size, repeat=False)
-
+    
     # Reset cost matrix
     id_to_tag = model.id_to_tag
     cost = model.crf.cost.data
@@ -115,6 +115,7 @@ def main(config_path):
         ['epoch', 'main/loss', 'dev/main/loss',
          'main/accuracy', 'dev/main/accuracy',
          'elapsed_time']))
+         
 
     if extensions.PlotReport.available():
         # Plot graph for loss,accuracy and fscore for each epoch
@@ -124,7 +125,7 @@ def main(config_path):
                                              x_key='epoch', file_name='accuracy.png'))
         trainer.extend(extensions.PlotReport(['dev/main/fscore'],
                                              x_key='epoch', file_name='fscore.png'))
-
+                                             
     trainer.run()
 
 
