@@ -199,8 +199,8 @@ def evaluate(model, y_preds, y_reals, raw_xs):
 
     print(tab.draw())
 
-    os.remove(output_path)
-    os.remove(scores_path)
+    #os.remove(output_path)
+    #os.remove(scores_path)
     return round(f, 2)
 
 
