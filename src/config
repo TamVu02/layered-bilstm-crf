@@ -1,7 +1,7 @@
 # Paths To Datasets And Evaluation
 
-path_train : /content/layered-bilstm-crf/src/dataset/nested_ner.conll
-path_dev : /content/layered-bilstm-crf/src/dataset/nested_ner.conll
+path_train : /content/layered-bilstm-crf/src/dataset/nested_ner_iob.conll
+path_dev : /content/layered-bilstm-crf/src/dataset/nested_ner_iob.conll
 #path_test : ../src/dataset/test.data
 
 path_eval_result : /content/layered-bilstm-crf/evaluation
