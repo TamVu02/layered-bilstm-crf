@@ -40,6 +40,6 @@ mode : 'train'
 mappings_path : /kaggle/working/layered-bilstm-crf/evaluation/mappings.pkl
 
 # Evaluation
-path_model : /kaggle/working/layered-bilstm-crf/result/model
+path_model : /kaggle/working/layered-bilstm-crf/result/model_iter_135
 script_folder : /kaggle/working/layered-bilstm-crf/script/
 result_folder : /kaggle/working/layered-bilstm-crf/result/
