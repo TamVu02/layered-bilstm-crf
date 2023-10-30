@@ -14,7 +14,7 @@ early_stopping_eps : 0
 early_stopping : 5
 
 # Model Settings
-epoch : 20
+epoch : 30
 replace_digit : true
 lowercase : false
 use_singletons : true
