@@ -173,7 +173,7 @@ def evaluate(model, y_preds, y_reals, raw_xs):
 
     for i, sentence in enumerate(raw_xs):
         print(sentence)
-        file.write(' '.join(sentence) + '\n')
+        file.write(' '.join(sentence) + '\n',encode("UTF-8"))
 
         p_tags = [[id_to_tag[int(y)] for y in y_pred] for y_pred in y_preds[i]]
         r_tags = [[id_to_tag[int(y)] for y in y_real] for y_real in y_reals[i]]
