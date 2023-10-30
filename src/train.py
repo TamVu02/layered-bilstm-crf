@@ -80,7 +80,7 @@ def main(config_path):
         print("Loading pretrained embedding...")
         model.load_pretrained(args['path_pre_emb'])
 
-    result_path = '/kaggle/working/layered-bilstm-crf/result/'
+    result_path = '/content/layered_bilstm_crf/result/'
     # Init Iterators
     train_iter = chainer.iterators.SerialIterator(train_data, model.batch_size)
     dev_iter = chainer.iterators.SerialIterator(dev_data, model.batch_size, repeat=False)
@@ -130,4 +130,4 @@ def main(config_path):
 
 
 if __name__ == '__main__':
-    main('/kaggle/working/layered-bilstm-crf/src/config')
+    main('/content/layered_bilstm_crf/src/config')
