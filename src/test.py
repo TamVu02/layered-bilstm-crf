@@ -71,7 +71,38 @@ def main(config_path):
     args = parse_config(config_path)
 
     # Load sentences
-    test_sentences = load_sentences(args["path_dev"], args["replace_digit"])
+    #test_sentences = load_sentences(args["path_dev"], args["replace_digit"])
+
+    #'''
+    test_sentences=[[['Trong','O','O','O'],
+    ['cuộc','B-BATTLE','O','O'],
+    ['xâm','I-BATTLE','O','O'],
+    ['lược','I-BATTLE','O','O'],
+    ['của','I-BATTLE','O','O'],
+    ['quân','B-MIL','I-BATTLE','O'],
+    ['Tống','B-ORG','I-MIL','I-BATTLE'],
+    [',','O','O','O'],
+    ['nhà','B-ORG','O','O'],
+    ['Nguyễn','I-ORG','O','O'],
+    ['chống','O','O','O'],
+    ['trả','O','O','O'],
+    ['rất','O','O','O'],
+    ['quyết','O','O','O'],
+    ['liệt','O','O','O'],
+    ['.','O','O','O'],
+    ['Vua','O','O','O'],
+    ['Nguyễn','B-PER','O','O'],
+    ['Thái','I-PER','O','O'],
+    ['Tông','I-PER','O','O'],
+    ['đã','O','O','O'],
+    ['quyết','O','O','O'],
+    ['định','O','O','O'],
+    ['đóng','O','O','O'],
+    ['đô','O','O','O'],
+    ['ở','O','O','O'],
+    ['Hoa','B-LOC','O','O'],
+    ['Lư','I-LOC','O','O']]]
+    #'''
 
     # Update tagging scheme (IOB/IOBES)
     update_tag_scheme(test_sentences, args["tag_scheme"])
@@ -109,8 +140,16 @@ def main(config_path):
         pred_tags.extend(ys)
         words.extend(xs)
 
+    max_tag_pred=len(pred_tags[0])
+    for i in range(len(words[0])):
+        print(words[0][i],'\t',end=' ')
+        for j in range (max_tag_pred):
+            tag=pred_tags[0][j][i].item()
+            print(id_to_tag.get(tag),end='\t')
+        print('\n')
+
     evaluate(model, pred_tags, gold_tags, words)
 
 
 if __name__ == '__main__':
-    main('/kaggle/working/layered-bilstm-crf/src/config')
+    main('/content/layered_bilstm_crf/src/config')
