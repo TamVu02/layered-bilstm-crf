@@ -1,10 +1,10 @@
 # Paths To Datasets And Evaluation
 
-path_train : /kaggle/working/layered-bilstm-crf/src/dataset/nested_ner_iob.conll
-path_dev : /kaggle/working/layered-bilstm-crf/src/dataset/nested_ner_iob.conll
+path_train : /content/layered_bilstm_crf/src/dataset/nested_ner_iob.conll
+path_dev : /content/layered_bilstm_crf/src/dataset/nested_ner_iob.conll
 #path_test : ../src/dataset/test.data
 
-path_eval_result : /kaggle/working/layered-bilstm-crf/evaluation
+path_eval_result : /content/layered_bilstm_crf/evaluation
 
 # Dataset Format
 tag_scheme : iob
@@ -14,7 +14,7 @@ early_stopping_eps : 0
 early_stopping : 5
 
 # Model Settings
-epoch : 2
+epoch : 30
 replace_digit : true
 lowercase : false
 use_singletons : true
@@ -32,14 +32,14 @@ batch_size : 10
 dropout_ratio : 0.25
 lr_param : 0.0005
 threshold : 5
-decay_rate : 0.0001
+decay_rate : 0.001
 
 # For Training and Tuning
 gpus : {'main': 0}
 mode : 'train'
-mappings_path : /kaggle/working/layered-bilstm-crf/evaluation/mappings.pkl
+mappings_path : /content/layered_bilstm_crf/evaluation/mappings.pkl
 
 # Evaluation
-path_model : /kaggle/working/layered-bilstm-crf/result/model_iter_135
-script_folder : /kaggle/working/layered-bilstm-crf/script/
-result_folder : /kaggle/working/layered-bilstm-crf/result/
+path_model : /content/layered_bilstm_crf/result/model_iter_1823
+script_folder : /content/layered_bilstm_crf/script/
+result_folder : /content/layered_bilstm_crf/result/
