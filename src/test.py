@@ -71,7 +71,7 @@ def main(config_path):
     args = parse_config(config_path)
 
     # Load sentences
-    test_sentences = load_sentences(args["path_test"], args["replace_digit"])
+    test_sentences = load_sentences(args["path_dev"], args["replace_digit"])
 
     # Update tagging scheme (IOB/IOBES)
     update_tag_scheme(test_sentences, args["tag_scheme"])
@@ -89,6 +89,7 @@ def main(config_path):
     model = Model(len(word_to_id), len(char_to_id), len(tag_to_id), args)
 
     serializers.load_npz(args['path_model'], model)
+    serializers.save_npz('nested_ner.npz', model)
 
     model.id_to_tag = id_to_tag
     model.parameters = args
@@ -112,4 +113,4 @@ def main(config_path):
 
 
 if __name__ == '__main__':
-    main('../src/config')
+    main('/kaggle/working/layered-bilstm-crf/src/config')
