@@ -162,7 +162,7 @@ def evaluate(model, y_preds, y_reals, raw_xs):
     eval_id = str(uuid.uuid4())
     output_path = os.path.join(parameters['path_eval_result'], "eval.%s.output" % eval_id)
     scores_path = os.path.join(parameters['path_eval_result'], "eval.%s.scores" % eval_id)
-    file = open(output_path, 'w')
+    file = open(output_path, 'w', encoding="utf-8")
     file_score = open(scores_path, 'w')
 
     print("Evaluating model with eval_id = " + eval_id)
@@ -173,7 +173,7 @@ def evaluate(model, y_preds, y_reals, raw_xs):
 
     for i, sentence in enumerate(raw_xs):
         print(sentence)
-        file.write(' '.join(sentence) + '\n',encode("UTF-8"))
+        file.write(' '.join(sentence) + '\n')
 
         p_tags = [[id_to_tag[int(y)] for y in y_pred] for y_pred in y_preds[i]]
         r_tags = [[id_to_tag[int(y)] for y in y_real] for y_real in y_reals[i]]
