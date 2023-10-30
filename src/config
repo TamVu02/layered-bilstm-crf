@@ -1,10 +1,10 @@
 # Paths To Datasets And Evaluation
 
-path_train : /content/layered-bilstm-crf/src/dataset/nested_ner_iob.conll
-path_dev : /content/layered-bilstm-crf/src/dataset/nested_ner_iob.conll
+path_train : /kaggle/working/layered-bilstm-crf/src/dataset/nested_ner_iob.conll
+path_dev : /kaggle/working/layered-bilstm-crf/src/dataset/nested_ner_iob.conll
 #path_test : ../src/dataset/test.data
 
-path_eval_result : /content/layered-bilstm-crf/evaluation
+path_eval_result : /kaggle/working/layered-bilstm-crf/evaluation
 
 # Dataset Format
 tag_scheme : iob
@@ -37,9 +37,9 @@ decay_rate : 0.0001
 # For Training and Tuning
 gpus : {'main': 0}
 mode : 'train'
-mappings_path : /content/layered-bilstm-crf/evaluation/mappings.pkl
+mappings_path : /kaggle/working/layered-bilstm-crf/evaluation/mappings.pkl
 
 # Evaluation
-path_model : /content/layered-bilstm-crf/result/model
-script_folder : /content/layered-bilstm-crf/script/
-result_folder : /content/layered-bilstm-crf/result/
+path_model : /kaggle/working/layered-bilstm-crf/result/model
+script_folder : /kaggle/working/layered-bilstm-crf/script/
+result_folder : /kaggle/working/layered-bilstm-crf/result/
