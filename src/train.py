@@ -130,4 +130,4 @@ def main(config_path):
 
 
 if __name__ == '__main__':
-    main('/content/layered-bilstm-crf/src/config')
+    main('/kaggle/working/layered-bilstm-crf/src/config')
