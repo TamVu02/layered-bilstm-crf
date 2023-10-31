@@ -54,7 +54,7 @@ def load_sentences(path, zeros):
                 sentence = []
         else:
             word = line.split()
-            if len(word)!=4:
+            if len(word)!=5:
                 continue
             sentence.append(word)
 
