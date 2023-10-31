@@ -73,7 +73,7 @@ def main(config_path):
     # Load sentences
     #test_sentences = load_sentences(args["path_dev"], args["replace_digit"])
 
-    #'''
+    '''
     test_sentences=[[['Trong','O','O','O'],
     ['cuộc','B-BATTLE','O','O'],
     ['xâm','I-BATTLE','O','O'],
@@ -102,7 +102,7 @@ def main(config_path):
     ['ở','O','O','O'],
     ['Hoa','B-LOC','O','O'],
     ['Lư','I-LOC','O','O']]]
-    #'''
+    '''
 
     # Update tagging scheme (IOB/IOBES)
     update_tag_scheme(test_sentences, args["tag_scheme"])
@@ -152,4 +152,4 @@ def main(config_path):
 
 
 if __name__ == '__main__':
-    main('/content/layered_bilstm_crf/src/config')
+    main('/content/layered_bilstm_crf/src/config_test')
