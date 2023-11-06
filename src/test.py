@@ -73,14 +73,14 @@ def main(config_path):
     # Load sentences
     #test_sentences = load_sentences(args["path_dev"], args["replace_digit"])
 
-    '''
+    #'''
     test_sentences=[[['Trong','O','O','O','O'],
     ['cuộc','B-BATTLE','O','O','O'],
     ['xâm','I-BATTLE','O','O','O'],
     ['lược','I-BATTLE','O','O','O'],
     ['của','I-BATTLE','O','O','O'],
-    ['quân','B-MIL','I-BATTLE','O','O'],
-    ['Tống','B-ORG','I-MIL','I-BATTLE','O'],
+    ['quân','I-BATTLE','B-MIL','O','O'],
+    ['Tống','I-BATTLE','I-MIL','B-ORG','O'],
     [',','O','O','O','O'],
     ['nhà','B-ORG','O','O','O'],
     ['Nguyễn','I-ORG','O','O','O'],
@@ -102,7 +102,7 @@ def main(config_path):
     ['ở','O','O','O','O'],
     ['Hoa','B-LOC','O','O','O'],
     ['Lư','I-LOC','O','O','O']]]
-    '''
+    #'''
 
     # Update tagging scheme (IOB/IOBES)
     update_tag_scheme(test_sentences, args["tag_scheme"])
