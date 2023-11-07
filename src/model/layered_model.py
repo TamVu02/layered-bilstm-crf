@@ -76,7 +76,7 @@ class Model(ModelBase):
             bi_char=L.NStepBiLSTM(1, args['char_embedding_dim'], args['char_embedding_dim'], 0),
             word_embed=L.EmbedID(n_vocab, args['word_embedding_dim'], ignore_label=-1),
             bi_word1=L.NStepBiLSTM(1, feature_dim, 64, 0),
-            bi_word2=L.NStepBiLSTM(2, 128, 32, 0),
+            bi_word2=L.NStepBiLSTM(1, 128, 32, 0),
             bi_word3=L.NStepBiLSTM(1, 64, int(feature_dim/2), 0),
             l=L.Linear(feature_dim, n_tag),
             crf=L.CRF1d(n_tag))
