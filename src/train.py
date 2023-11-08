@@ -23,6 +23,10 @@ from src.model.loader import prepare_dataset, augment_with_pretrained
 from src.model.loader import load_cost_matrix
 from src.early_stopping_trigger import EarlyStoppingTrigger
 
+import random
+seed = 42
+random.seed(seed)
+
 
 def main(config_path):
     # Init args
@@ -30,6 +34,7 @@ def main(config_path):
 
     # Load sentences
     all_sentences = load_sentences(args["path_train"], args["replace_digit"])
+    random.shuffle(all_sentences)
     train_sentences=all_sentences[:675]
     dev_sentences = all_sentences[675:]
 
