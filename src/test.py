@@ -110,7 +110,7 @@ def main(config_path):
             iob_data.append(cur_iob)
         return [iob_data]
     #text='Trong khoảng 00 thế kỉ đầu sau Công nguyên, hàng loạt quốc gia nhỏ đã được hình thành và phát triển ở khu vực phía nam Đông Nam Á như Vương quốc Cham-pa ở vùng Trung Bộ Việt Nam, Vương quốc Phù Nam ở hạ lưu sông Mê Công, các vương quốc ở hạ lưu sông Mê Nam và trên các đảo của In-đô-nê-xi-a. Thời ấy, các quốc gia này còn nhỏ bé, phân tán trên các địa bàn hẹp, sống riêng rẻ và nhiều khi tranh chấp lẫn nhau. Đó cũng chính là nguyên nhân dẫn tới sự sụp đổ của các vương quốc cổ, để rồi, trên cơ sở đó hình thành nên các quốc gia phong kiến dân tộc hùng mạnh sau này.'
-    text=input()
+    text=input('Input for predict nested ner: ')
     test_sentences=covert_text_to_iob_format(text)
 
     # Update tagging scheme (IOB/IOBES)
