@@ -75,9 +75,9 @@ class Model(ModelBase):
             char_embed=L.EmbedID(n_char, args['char_embedding_dim'], ignore_label=-1),
             bi_char=L.NStepBiLSTM(1, args['char_embedding_dim'], args['char_embedding_dim'], 0),
             word_embed=L.EmbedID(n_vocab, args['word_embedding_dim'], ignore_label=-1),
-            bi_word1=L.NStepBiLSTM(1, feature_dim, 64, 0),
-            bi_word2=L.NStepBiLSTM(1, 128, 32, 0),
-            bi_word3=L.NStepBiLSTM(1, 64, int(feature_dim/2), 0),
+            bi_word1=L.NStepBiLSTM(1, feature_dim, int(feature_dim/2), 0),
+            # bi_word2=L.NStepBiLSTM(1, 128, 32, 0),
+            # bi_word3=L.NStepBiLSTM(1, 64, int(feature_dim/2), 0),
             l=L.Linear(feature_dim, n_tag),
             crf=L.CRF1d(n_tag))
        
@@ -112,12 +112,12 @@ class Model(ModelBase):
             for w in self.bi_word1:
                w.b1.data[:] = 1.0
                w.b5.data[:] = 1.0
-            for w in self.bi_word2:
-               w.b1.data[:] = 1.0
-               w.b5.data[:] = 1.0
-            for w in self.bi_word3:
-               w.b1.data[:] = 1.0
-               w.b5.data[:] = 1.0
+            # for w in self.bi_word2:
+            #    w.b1.data[:] = 1.0
+            #    w.b5.data[:] = 1.0
+            # for w in self.bi_word3:
+            #    w.b1.data[:] = 1.0
+            #    w.b5.data[:] = 1.0
 
     def __call__(self, chars, words, tags, index, train, *args):
         """
@@ -149,10 +149,10 @@ class Model(ModelBase):
         """
         xs = F.split_axis(word_embed, section, axis=0)
         _, __, ys1 = self.bi_word1(None, None, xs)
-        _, __, ys2 = self.bi_word2(None, None, ys1)
-        _, __, ys3 = self.bi_word3(None, None, ys2)
+        # _, __, ys2 = self.bi_word2(None, None, ys1)
+        # _, __, ys3 = self.bi_word3(None, None, ys2)
 
-        ysl = self.l(F.concat(ys3, axis=0))
+        ysl = self.l(F.concat(ys1, axis=0))
         ysl = F.split_axis(ysl, section, 0)
 
         inds = xp.argsort(xp.array([-x.shape[0] for x in ysl]).astype('i'))
@@ -177,7 +177,7 @@ class Model(ModelBase):
         accuracy = correct * 1.0 / batch_ts.shape[0]
         reporter.report({'accuracy': accuracy}, self)
 
-        return accuracy, loss, concat_predicts, ys3
+        return accuracy, loss, concat_predicts, ys1
 
     def start_next(self, predicts, section, index, ys):
         """
