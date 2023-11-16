@@ -17,6 +17,8 @@ from src.model.layered_model import Model, Evaluator, Updater
 from src.model.loader import load_sentences, update_tag_scheme, parse_config
 from src.model.loader import prepare_dataset
 from src.model.utils import evaluate
+seed = 42
+random.seed(seed)
 
 
 def predict(data_iter, model, mode):
@@ -71,9 +73,11 @@ def main(config_path):
     args = parse_config(config_path)
 
     # Load sentences
-    #test_sentences = load_sentences(args["path_dev"], args["replace_digit"])
+    all_sentences = load_sentences(args["path_dev"], args["replace_digit"])
+    random.shuffle(all_sentences)
+    test_sentences=all_sentences[675:]
 
-    #'''
+    '''
     test_sentences=[[['Trong','O','O','O','O'],
     ['cuộc','B-BATTLE','O','O','O'],
     ['khởi','I-BATTLE','O','O','O'],
@@ -100,7 +104,7 @@ def main(config_path):
     ['ở','O','O','O','O'],
     ['Hoa','B-LOC','O','O','O'],
     ['Lư','I-LOC','O','O','O']]]
-    #'''
+    '''
     def covert_text_to_iob_format(text):
         iob_data=list()
         for word in text.split():
@@ -110,8 +114,8 @@ def main(config_path):
             iob_data.append(cur_iob)
         return [iob_data]
     #text='Trong khoảng 00 thế kỉ đầu sau Công nguyên, hàng loạt quốc gia nhỏ đã được hình thành và phát triển ở khu vực phía nam Đông Nam Á như Vương quốc Cham-pa ở vùng Trung Bộ Việt Nam, Vương quốc Phù Nam ở hạ lưu sông Mê Công, các vương quốc ở hạ lưu sông Mê Nam và trên các đảo của In-đô-nê-xi-a. Thời ấy, các quốc gia này còn nhỏ bé, phân tán trên các địa bàn hẹp, sống riêng rẻ và nhiều khi tranh chấp lẫn nhau. Đó cũng chính là nguyên nhân dẫn tới sự sụp đổ của các vương quốc cổ, để rồi, trên cơ sở đó hình thành nên các quốc gia phong kiến dân tộc hùng mạnh sau này.'
-    text=input('Input for predict nested ner: ')
-    test_sentences=covert_text_to_iob_format(text)
+    #text=input('Input for predict nested ner: ')
+    #test_sentences=covert_text_to_iob_format(text)
 
     # Update tagging scheme (IOB/IOBES)
     update_tag_scheme(test_sentences, args["tag_scheme"])
@@ -150,11 +154,16 @@ def main(config_path):
         words.extend(xs)
 
     max_tag_pred=len(pred_tags[0])
-    for i in range(len(words[0])):
-        print(words[0][i],'\t',end=' ')
-        for j in range (max_tag_pred):
-            tag=pred_tags[0][j][i].item()
-            print(id_to_tag.get(tag),end='\t')
+    for sample in range (len(pred_tags)):
+        max_tag_pred=len(pred_tags[sample])
+        if(max_tag_pred<=2):
+            continue
+        for i in range(len(words[sample])):
+            print(words[sample][i],'\t',end=' ')
+            for j in range (max_tag_pred):
+                tag=pred_tags[sample][j][i].item()
+                print(id_to_tag.get(tag),end='\t')
+            print('\n')
         print('\n')
 
     evaluate(model, pred_tags, gold_tags, words)
