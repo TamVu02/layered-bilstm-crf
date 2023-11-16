@@ -30,7 +30,7 @@ batch_size : 10
 
 # Hyperparameters
 dropout_ratio : 0.25
-lr_param : 0.0005
+lr_param : 0.001
 threshold : 5
 decay_rate : 0.001
 
