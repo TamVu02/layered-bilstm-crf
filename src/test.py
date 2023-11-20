@@ -2,7 +2,6 @@ import os
 import sys
 os.environ['CHAINER_SEED'] = '0'
 import random
-random.seed(0)
 import numpy as np
 np.random.seed(0)
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
@@ -17,7 +16,8 @@ from src.model.layered_model import Model, Evaluator, Updater
 from src.model.loader import load_sentences, update_tag_scheme, parse_config
 from src.model.loader import prepare_dataset
 from src.model.utils import evaluate
-seed = 42
+
+seed = 11
 random.seed(seed)
 
 
@@ -75,7 +75,9 @@ def main(config_path):
     # Load sentences
     all_sentences = load_sentences(args["path_dev"], args["replace_digit"])
     random.shuffle(all_sentences)
-    test_sentences=all_sentences[675:]
+    total_sample = len(all_sentences)
+    ratio = (int)(total_sample*90/100)
+    test_sentences=all_sentences[ratio:]
 
     '''
     test_sentences=[[['Trong','O','O','O','O'],
