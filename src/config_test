@@ -1,7 +1,7 @@
 # Paths To Datasets And Evaluation
 
-path_train : /content/layered_bilstm_crf/src/dataset/check_nested.conll
-path_dev : /content/layered_bilstm_crf/src/dataset/check_nested.conll
+path_train : /content/layered_bilstm_crf/src/dataset/nested_vnhistory.conll
+path_dev : /content/layered_bilstm_crf/src/dataset/nested_vnhistory.conll
 #path_test : ../src/dataset/test.data
 
 path_eval_result : /content/layered_bilstm_crf/evaluation
@@ -20,7 +20,7 @@ lowercase : false
 use_singletons : true
 
 # Using Pretrained Embeddings
-path_pre_emb :
+path_pre_emb : /content/drive/MyDrive/AI_Vũ Lê Băng Tâm/Intern/Week 9 (13 11-17 11)/word2vec_vi_words_100dims.txt
 
 # Network Structure
 word_embedding_dim : 100
@@ -30,7 +30,7 @@ batch_size : 10
 
 # Hyperparameters
 dropout_ratio : 0.25
-lr_param : 0.0005
+lr_param : 0.001
 threshold : 5
 decay_rate : 0.001
 
