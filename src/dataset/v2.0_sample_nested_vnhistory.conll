@@ -1,0 +1,1398 @@
+Từ	O	O
+thời	B-TIME	O
+cổ	I-TIME	O
+đại	I-TIME	O
+trên	O	O
+lưu	B-LOC	O
+vực	I-LOC	O
+Hoàng	I-LOC	O
+Hà	I-LOC	O
+và	O	O
+Trường	B-LOC	O
+Giang	I-LOC	O
+có	O	O
+nhiều	O	O
+quốc	O	O
+gia	O	O
+nhỏ	O	O
+của	O	O
+người	O	O
+Trung	B-LOC	O
+Quốc	I-LOC	O
+
+
+Giữa	O
+các	O
+nước	O
+này	O
+thường	O
+xuyên	O
+xảy	O
+ra	O
+các	O
+cuộc	O
+chiến	O
+tranh	O
+nhằm	O
+xâu	O
+xé	O
+và	O
+thôn	O
+tính	O
+lẫn	O
+nhau	O
+làm	O
+thành	O
+cục	O
+diện	O
+Xuân	O
+Thu	O
+-	O
+Chiến	O
+Quốc	O
+
+
+Đến	O	O
+thế	B-TIME	O
+kỉ	I-TIME	O
+IV	I-TIME	O
+TCN	I-TIME	O
+Tần	B-LOC	O
+trở	O	O
+thành	O	O
+nước	O	O
+có	O	O
+tiềm	O	O
+lực	O	O
+về	O	O
+kinh	O	O
+tế	O	O
+và	O	O
+quân	O	O
+sự	O	O
+mạnh	O	O
+hơn	O	O
+cả	O	O
+
+
+Dựa	O	O
+vào	O	O
+ưu	O	O
+thế	O	O
+đó	O	O
+nhà	B-ORG	O
+Tần	I-ORG	O
+đã	O	O
+lần	O	O
+lượt	O	O
+tiêu	O	O
+diệt	O	O
+các	O	O
+đối	O	O
+thủ	O	O
+chấm	O	O
+dứt	O	O
+tình	O	O
+trạng	O	O
+chia	O	O
+cắt	O	O
+lãnh	O	O
+thổ	O	O
+
+
+Đầu	B-TIME	O
+thế	I-TIME	O
+kỉ	I-TIME	O
+XIII	I-TIME	O
+trên	O	O
+thảo	B-LOC	O
+nguyên	I-LOC	O
+Mông	I-LOC	O
+Cổ	I-LOC	O
+hình	O	O
+thành	O	O
+nhà	O	O
+nước	O	O
+phong	O	O
+kiến	O	O
+chuyên	O	O
+chế	O	O
+quân	O	O
+sự	O	O
+do	O	O
+Gien-gít	B-PER	O
+Khan	I-PER	O
+Thành	B-PER	O
+Cát	I-PER	O
+Tư	I-PER	O
+Hãn	I-PER	O
+làm	O	O
+vua	O	O
+
+
+Năm	B-TIME	O
+1271	I-TIME	O
+vua	O	O
+Mông	B-LOC	O
+Cổ	I-LOC	O
+là	O	O
+Khu-bi-lai	B-PER	O
+Hốt	B-PER	O
+Tất	I-PER	O
+Liệt	I-PER	O
+lên	O	O
+ngôi	O	O
+Hoàng	O	O
+đế	O	O
+thiết	O	O
+lập	O	O
+triều	B-ORG	O
+Nguyên	I-ORG	O
+ở	O	O
+Trung	B-LOC	O
+Quốc	I-LOC	O
+1271	B-TIME	O
+-	O	O
+1368	B-TIME	O
+
+
+Dưới	O	O
+sự	O	O
+thống	O	O
+trị	O	O
+của	O	O
+nhà	B-ORG	O
+Nguyên	I-ORG	O
+nhân	O	O
+dân	O	O
+Trung	B-LOC	O
+Quốc	I-LOC	O
+liên	O	O
+tiếp	O	O
+đứng	O	O
+lên	O	O
+đấu	O	O
+tranh	O	O
+
+
+Năm	B-TIME	O
+1368	I-TIME	O
+khởi	O	O
+nghĩa	O	O
+nông	O	O
+dân	O	O
+lật	O	O
+đổ	O	O
+được	O	O
+nhà	B-ORG	O
+Nguyên	I-ORG	O
+Chu	B-PER	O
+Nguyên	I-PER	O
+Chương	I-PER	O
+lên	O	O
+ngôi	O	O
+Hoàng	O	O
+đế	O	O
+ở	O	O
+Nam	B-LOC	O
+Kinh	I-LOC	O
+lập	O	O
+ra	O	O
+nhà	B-ORG	O
+Minh	I-ORG	O
+1368	B-TIME	O
+-	O	O
+1644	B-TIME	O
+
+
+Các	O	O
+vua	O	O
+triều	B-ORG	O
+Minh	I-ORG	O
+đã	O	O
+thi	O	O
+hành	O	O
+nhiều	O	O
+biện	O	O
+pháp	O	O
+nhằm	O	O
+khôi	O	O
+phục	O	O
+và	O	O
+phát	O	O
+triển	O	O
+kinh	O	O
+tế	O	O
+
+
+Đến	O	O
+đầu	B-TIME	O
+thế	I-TIME	O
+kỉ	I-TIME	O
+XVI	I-TIME	O
+mầm	O	O
+mống	O	O
+quan	O	O
+hệ	O	O
+sản	O	O
+xuất	O	O
+tư	O	O
+bản	O	O
+chủ	O	O
+nghĩa	O	O
+đã	O	O
+xuất	O	O
+hiện	O	O
+ở	O	O
+Trung	B-LOC	O
+Quốc	I-LOC	O
+
+
+Một	O
+số	O
+nghề	O
+đã	O
+có	O
+những	O
+xưởng	O
+thủ	O
+công	O
+tương	O
+đối	O
+lớn	O
+
+
+Ở	O	O
+Giang	B-LOC	O
+Tây	I-LOC	O
+có	O	O
+những	O	O
+trung	O	O
+tâm	O	O
+làm	O	O
+đồ	O	O
+gốm	O	O
+lớn	O	O
+như	O	O
+Cảnh	B-LOC	O
+Đức	I-LOC	O
+có	O	O
+tới	O	O
+3000	O	O
+lò	O	O
+sứ	O	O
+
+
+Có	O
+những	O
+chủ	O
+xưởng	O
+dệt	O
+nắm	O
+trong	O
+tay	O
+hàng	O
+vạn	O
+lạng	O
+bạc	O
+tiền	O
+vốn	O
+hàng	O
+chục	O
+khung	O
+cửi	O
+và	O
+hàng	O
+chục	O
+thợ	O
+
+
+Những	O
+người	O
+thợ	O
+này	O
+làm	O
+thuê	O
+để	O
+lấy	O
+tiền	O
+công	O
+
+
+Bấy	O
+giờ	O
+các	O
+nhà	O
+buôn	O
+lớn	O
+cũng	O
+xuất	O
+hiện	O
+
+
+Họ	O
+có	O
+nhiều	O
+vốn	O
+và	O
+nguyên	O
+liệu	O
+đem	O
+giao	O
+cho	O
+các	O
+hộ	O
+thủ	O
+công	O
+làm	O
+để	O
+thu	O
+thành	O
+phẩm	O
+
+
+Các	O
+thương	O
+nhân	O
+bao	O
+mua	O
+đem	O
+hàng	O
+đi	O
+trao	O
+đổi	O
+khắp	O
+trong	O
+và	O
+ngoài	O
+nước	O
+
+
+Hoạt	O
+động	O
+của	O
+họ	O
+thâm	O
+nhập	O
+vào	O
+cả	O
+lĩnh	O
+vực	O
+nông	O
+nghiệp	O
+như	O
+mùa	O
+xuân	O
+họ	O
+xuất	O
+vốn	O
+cho	O
+nông	O
+dân	O
+trồng	O
+mía	O
+mùa	O
+đông	O
+thu	O
+lại	O
+bằng	O
+đường	O
+
+
+Các	O	O
+thành	O	O
+thị	O	O
+ở	O	O
+thời	B-TIME	O
+Minh	I-TIME	O
+mọc	O	O
+lên	O	O
+nhiều	O	O
+và	O	O
+rất	O	O
+phồn	O	O
+thịnh	O	O
+
+
+Bắc	B-LOC	O
+Kinh	I-LOC	O
+Nam	B-LOC	O
+Kinh	I-LOC	O
+không	O	O
+chỉ	O	O
+là	O	O
+trung	O	O
+tâm	O	O
+chính	O	O
+trị	O	O
+mà	O	O
+còn	O	O
+là	O	O
+trung	O	O
+tâm	O	O
+kinh	O	O
+tế	O	O
+lớn	O	O
+
+
+Minh	B-PER	O
+Thái	I-PER	O
+Tổ	I-PER	O
+rất	O	O
+quan	O	O
+tâm	O	O
+đến	O	O
+việc	O	O
+xây	O	O
+dựng	O	O
+chế	O	O
+độ	O	O
+quân	O	O
+chủ	O	O
+chuyên	O	O
+chế	O	O
+tập	O	O
+quyền	O	O
+nhằm	O	O
+chấm	O	O
+dứt	O	O
+tình	O	O
+trạng	O	O
+hỗn	O	O
+chiến	O	O
+và	O	O
+mưu	O	O
+phản	O	O
+
+
+Năm	B-TIME	O
+1380	I-TIME	O
+ông	O	O
+quyết	O	O
+định	O	O
+bỏ	O	O
+các	O	O
+chức	O	O
+Thừa	O	O
+tướng	O	O
+Thái	O	O
+úy	O	O
+và	O	O
+thay	O	O
+vào	O	O
+đó	O	O
+là	O	O
+các	O	O
+Thượng	O	O
+thư	O	O
+phụ	O	O
+trách	O	O
+các	O	O
+bộ	O	O
+
+
+Nhà	B-ORG	O
+Minh	I-ORG	O
+đã	O	O
+lập	O	O
+ra	O	O
+6	O	O
+bộ	O	O
+Lại	O	O
+Hộ	O	O
+Lễ	O	O
+Binh	O	O
+Hình	O	O
+Công	O	O
+hoàn	O	O
+chỉnh	O	O
+bộ	O	O
+máy	O	O
+quan	O	O
+lại	O	O
+
+
+Các	O
+quan	O
+ở	O
+tỉnh	O
+chịu	O
+sự	O
+chỉ	O
+đạo	O
+của	O
+các	O
+bộ	O
+ở	O
+triều	O
+đình	O
+
+
+Hoàng	O
+đế	O
+tập	O
+trung	O
+mọi	O
+quyền	O
+hành	O
+trong	O
+tay	O
+trực	O
+tiếp	O
+nắm	O
+quân	O
+đội	O
+
+
+Hoàng	O
+đế	O
+còn	O
+tăng	O
+cường	O
+phong	O
+tước	O
+và	O
+ban	O
+cấp	O
+đất	O
+đai	O
+cho	O
+con	O
+cháu	O
+trong	O
+hoàng	O
+tộc	O
+công	O
+thần	O
+thân	O
+tín	O
+để	O
+làm	O
+chỗ	O
+dựa	O
+cho	O
+triều	O
+đình	O
+
+
+Khoảng	O	O	O
+1500	B-TIME	O	O
+năm	I-TIME	O	O
+trước	I-TIME	O	O
+Công	I-TIME	O	O
+nguyên	I-TIME	O	O
+vùng	B-LOC	O	O
+sông	I-LOC	O	O
+Hằng	I-LOC	O	O
+ở	O	O	O
+Đông	B-LOC	O	O
+Bắc	I-LOC	O	O
+có	O	O	O
+điều	O	O	O
+kiện	O	O	O
+thuận	O	O	O
+lợi	O	O	O
+mưa	O	O	O
+thuận	O	O	O
+gió	O	O	O
+hòa	O	O	O
+nên	O	O	O
+đã	O	O	O
+tiến	O	O	O
+bộ	O	O	O
+vượt	O	O	O
+lên	O	O	O
+có	O	O	O
+vai	O	O	O
+trò	O	O	O
+nổi	O	O	O
+trội	O	O	O
+trên	O	O	O
+cả	O	O	O
+miền	O	B-LOC	O
+Bắc	O	I-LOC	O
+Ấn	B-LOC	I-LOC	O
+Độ	I-LOC	I-LOC	O
+
+
+Từ	O	O
+các	O	O
+bộ	O	O
+lạc	O	O
+trồng	O	O
+lúa	O	O
+và	O	O
+chăn	O	O
+nuôi	O	O
+trên	O	O
+bờ	O	O
+sông	B-LOC	O
+Hằng	I-LOC	O
+bắt	O	O
+đầu	O	O
+hình	O	O
+thành	O	O
+một	O	O
+số	O	O
+nhà	O	O
+nước	O	O
+đầu	O	O
+tiên	O	O
+đứng	O	O
+đầu	O	O
+là	O	O
+các	O	O
+tiểu	O	O
+vương	O	O
+thường	O	O
+xuyên	O	O
+phát	O	O
+triển	O	O
+kinh	O	O
+tế	O	O
+xây	O	O
+dựng	O	O
+đất	O	O
+nước	O	O
+lớn	O	O
+mạnh	O	O
+và	O	O
+tranh	O	O
+giành	O	O
+ảnh	O	O
+hưởng	O	O
+với	O	O
+nhau	O	O
+
+
+Đến	O	O
+khoảng	O	O
+500	B-TIME	O
+năm	I-TIME	O
+trước	I-TIME	O
+Công	I-TIME	O
+nguyên	I-TIME	O
+nước	O	O
+Ma-ga-đa	B-LOC	O
+lớn	O	O
+mạnh	O	O
+hơn	O	O
+cả	O	O
+được	O	O
+nhiều	O	O
+nước	O	O
+khác	O	O
+tôn	O	O
+phục	O	O
+
+
+Người	O	O
+Hi	B-LOC	O
+Lạp	I-LOC	O
+đã	O	O
+từng	O	O
+đến	O	O
+thăm	O	O
+kinh	O	O
+đô	O	O
+của	O	O
+Ma-ga-đa	B-LOC	O
+là	O	O
+Pa-ta-li-pu-tra	B-LOC	O
+kể	O	O
+lại	O	O
+có	O	O
+phố	O	O
+dài	O	O
+2	O	O
+km	O	O
+trên	O	O
+bến	O	O
+dưới	O	O
+thuyền	O	O
+dọc	O	O
+hữu	O	O
+ngạn	O	O
+sông	B-LOC	O
+Hằng	I-LOC	O
+
+
+Vua	O	O
+mở	O	O
+đầu	O	O
+nước	O	O
+này	O	O
+Bim-bi-sa-ra	B-PER	O
+được	O	O
+coi	O	O
+là	O	O
+cùng	O	O
+thời	O	O
+và	O	O
+là	O	O
+bạn	O	O
+của	O	O
+Phật	O	O
+tổ	O	O
+
+
+Đến	O	O
+thế	B-TIME	O
+kỉ	I-TIME	O
+VII	I-TIME	O
+Ấn	B-LOC	O
+Độ	I-LOC	O
+lại	O	O
+bị	O	O
+rơi	O	O
+vào	O	O
+tình	O	O
+trạng	O	O
+chia	O	O
+rẽ	O	O
+phân	O	O
+tán	O	O
+
+
+Nguyên	O	O
+nhân	O	O
+của	O	O
+nó	O	O
+một	O	O
+phần	O	O
+là	O	O
+do	O	O
+chính	O	O
+quyền	O	O
+trung	O	O
+ương	O	O
+suy	O	O
+yếu	O	O
+mặt	O	O
+khác	O	O
+do	O	O
+trải	O	O
+qua	O	O
+6	O	O
+-	O	O
+7	O	O
+thế	O	O
+kỉ	O	O
+trên	O	O
+đất	O	O
+nước	O	O
+rộng	O	O
+lớn	O	O
+và	O	O
+ngăn	O	O
+cách	O	O
+nhau	O	O
+mỗi	O	O
+vùng	O	O
+lãnh	O	O
+thổ	O	O
+lại	O	O
+có	O	O
+những	O	O
+điều	O	O
+kiện	O	O
+và	O	O
+sắc	O	O
+thái	O	O
+riêng	O	O
+của	O	O
+mình	O	O
+nên	O	O
+đất	O	O
+nước	O	O
+chia	O	O
+thành	O	O
+hai	O	O
+miền	O	O
+Bắc	O	O
+và	O	O
+Nam	O	O
+mỗi	O	O
+miền	O	O
+lại	O	O
+tách	O	O
+thành	O	O
+ba	O	O
+nước	O	O
+riêng	O	O
+thành	O	O
+sáu	O	O
+nước	O	O
+trong	O	O
+đó	O	O
+nước	O	O
+Pa-la	B-LOC	O
+ở	O	O
+vùng	O	O
+Đông	B-LOC	O
+Bắc	I-LOC	O
+và	O	O
+nước	O	O
+Pa-la-va	B-LOC	O
+ở	O	O
+miền	B-LOC	O
+Nam	I-LOC	O
+có	O	O
+vai	O	O
+trò	O	O
+nổi	O	O
+trội	O	O
+hơn	O	O
+
+
+Trong	O
+trường	O
+hợp	O
+này	O
+sự	O
+phân	O
+liệt	O
+không	O
+nói	O
+lên	O
+tình	O
+trạng	O
+khủng	O
+hoảng	O
+suy	O
+thoái	O
+mà	O
+lại	O
+phản	O
+ánh	O
+sự	O
+phát	O
+triển	O
+tự	O
+cường	O
+của	O
+các	O
+vùng	O
+địa	O
+phương	O
+
+
+Mỗi	O	O
+nước	O	O
+lại	O	O
+tiếp	O	O
+tục	O	O
+phát	O	O
+triển	O	O
+sâu	O	O
+rộng	O	O
+nền	O	O
+văn	O	O
+hóa	O	O
+của	O	O
+mình	O	O
+trên	O	O
+cơ	O	O
+sở	O	O
+văn	O	O
+hóa	O	O
+truyền	O	O
+thống	O	O
+Ấn	B-LOC	O
+Độ	I-LOC	O
+-	O	O
+chữ	O	O
+viết	O	O
+văn	O	O
+học	O	O
+và	O	O
+nghệ	O	O
+thuật	O	O
+Hinđu	O	O
+đặc	O	O
+biệt	O	O
+là	O	O
+văn	O	O
+học	O	O
+và	O	O
+nghệ	O	O
+thuật	O	O
+thời	B-TIME	O
+Gúp-ta	I-TIME	O
+
+
+Trong	O	O
+hơn	O	O
+300	O	O
+năm	O	O
+tồn	O	O
+tại	O	O
+và	O	O
+phát	O	O
+triển	O	O
+Vương	B-ORG	O
+triều	I-ORG	O
+Hồi	I-ORG	O
+giáo	I-ORG	O
+Đê-li	I-ORG	O
+1206	B-TIME	O
+-	O	O
+1526	B-TIME	O
+đã	O	O
+truyền	O	O
+bá	O	O
+áp	O	O
+đặt	O	O
+Hồi	O	O
+giáo	O	O
+vào	O	O
+những	O	O
+cư	O	O
+dân	O	O
+theo	O	O
+Phật	O	O
+giáo	O	O
+và	O	O
+Hinđu	O	O
+giáo	O	O
+tự	O	O
+dành	O	O
+cho	O	O
+mình	O	O
+những	O	O
+ưu	O	O
+tiên	O	O
+về	O	O
+ruộng	O	O
+đất	O	O
+địa	O	O
+vị	O	O
+trong	O	O
+bộ	O	O
+máy	O	O
+quan	O	O
+Tại	O	O
+
+
+Ví	O
+như	O
+ngoài	O
+thuế	O
+ruộng	O
+đất	O
+1/5	O
+thu	O
+hoạch	O
+những	O
+người	O
+không	O
+theo	O
+đạo	O
+Hồi	O
+phải	O
+nộp	O
+thêm	O
+một	O
+khoản	O
+gọi	O
+là	O
+thuế	O
+ngoại	O
+đạo	O
+-	O
+jaziah	O
+
+
+Mặc	O
+dù	O
+các	O
+ông	O
+vua	O
+đã	O
+cố	O
+gắng	O
+thực	O
+thi	O
+nhiều	O
+chính	O
+sách	O
+mềm	O
+mỏng	O
+để	O
+giữ	O
+yên	O
+đất	O
+nước	O
+nhưng	O
+sự	O
+phân	O
+biệt	O
+sắc	O
+tộc	O
+và	O
+tôn	O
+giáo	O
+không	O
+thể	O
+làm	O
+tan	O
+đi	O
+nỗi	O
+bất	O
+bình	O
+của	O
+nhân	O
+dân	O
+
+
+Trong	O	O	O
+khoảng	O	O	O
+10	B-TIME	O	O
+thế	I-TIME	O	O
+kỉ	I-TIME	O	O
+đầu	I-TIME	O	O
+sau	I-TIME	O	O
+Công	I-TIME	O	O
+nguyên	I-TIME	O	O
+hàng	O	O	O
+loạt	O	O	O
+quốc	O	O	O
+gia	O	O	O
+nhỏ	O	O	O
+đã	O	O	O
+được	O	O	O
+hình	O	O	O
+thành	O	O	O
+và	O	O	O
+phát	O	O	O
+triển	O	O	O
+ở	O	O	O
+khu	O	O	O
+vực	O	O	O
+phía	O	B-LOC	O
+nam	O	I-LOC	O
+Đông	B-LOC	I-LOC	O
+Nam	I-LOC	I-LOC	O
+Á	I-LOC	I-LOC	O
+như	O	O	O
+Vương	B-LOC	O	O
+quốc	I-LOC	O	O
+Cham-pa	I-LOC	O	O
+ở	O	O	O
+vùng	O	O	O
+Trung	O	B-LOC	O
+Bộ	O	I-LOC	O
+Việt	B-LOC	I-LOC	O
+Nam	I-LOC	I-LOC	O
+Vương	B-LOC	O	O
+quốc	I-LOC	O	O
+Phù	I-LOC	O	O
+Nam	I-LOC	O	O
+ở	O	O	O
+hạ	B-LOC	O	O
+lưu	I-LOC	O	O
+sông	I-LOC	O	O
+Mê	I-LOC	O	O
+Công	I-LOC	O	O
+các	O	O	O
+vương	O	O	O
+quốc	O	O	O
+ở	O	O	O
+hạ	B-LOC	O	O
+lưu	I-LOC	O	O
+sông	I-LOC	O	O
+Mê	I-LOC	O	O
+Nam	I-LOC	O	O
+và	O	O	O
+trên	O	O	O
+các	O	O	O
+đảo	O	O	O
+của	O	O	O
+In-đô-nê-xi-a	B-LOC	O	O
+
+
+Thời	O
+ấy	O
+các	O
+quốc	O
+gia	O
+này	O
+còn	O
+nhỏ	O
+bé	O
+phân	O
+tán	O
+trên	O
+các	O
+địa	O
+bàn	O
+hẹp	O
+sống	O
+riêng	O
+rẻ	O
+và	O
+nhiều	O
+khi	O
+tranh	O
+chấp	O
+lẫn	O
+nhau	O
+
+
+Đó	O
+cũng	O
+chính	O
+là	O
+nguyên	O
+nhân	O
+dẫn	O
+tới	O
+sự	O
+sụp	O
+đổ	O
+của	O
+các	O
+vương	O
+quốc	O
+cổ	O
+để	O
+rồi	O
+trên	O
+cơ	O
+sở	O
+đó	O
+hình	O
+thành	O
+nên	O
+các	O
+quốc	O
+gia	O
+phong	O
+kiến	O
+dân	O
+tộc	O
+hùng	O
+mạnh	O
+sau	O
+này	O
+
+
+Nhưng	O	O
+từ	O	O
+cuối	B-TIME	O
+thế	I-TIME	O
+kỉ	I-TIME	O
+XIII	I-TIME	O
+Cam-pu-chia	B-LOC	O
+bắt	O	O
+đầu	O	O
+suy	O	O
+yếu	O	O
+
+
+Thêm	O	O
+vào	O	O
+đó	O	O
+Vương	B-LOC	O
+quốc	I-LOC	O
+Thái	I-LOC	O
+thành	O	O
+lập	O	O
+vào	O	O
+thế	B-TIME	O
+kỉ	I-TIME	O
+XIV	I-TIME	O
+đã	O	O
+nhiều	O	O
+lần	O	O
+gây	O	O
+chiến	O	O
+với	O	O
+Cam-pu-chia	B-LOC	O
+tàn	O	O
+phá	O	O
+kinh	B-LOC	O
+thành	I-LOC	O
+Ăng-co	I-LOC	O
+
+
+Sau	O	O
+5	O	O
+lần	O	O
+bị	O	O
+người	O	O
+Thái	B-LOC	O
+xâm	O	O
+chiếm	O	O
+năm	B-TIME	O
+1432	I-TIME	O
+người	O	O
+Khơ-me	O	O
+phải	O	O
+bỏ	O	O
+kinh	B-LOC	O
+đô	I-LOC	O
+Ăng-co	I-LOC	O
+lui	O	O
+về	O	O
+phía	B-LOC	O
+nam	I-LOC	O
+Biển	I-LOC	O
+Hồ	I-LOC	O
+tức	O	O
+là	O	O
+khu	O	O
+vực	O	O
+Phnôm	B-LOC	O
+Pênh	I-LOC	O
+ngày	O	O
+nay	O	O
+
+
+Từ	O	O
+đó	O	O
+chính	O	O
+quyền	O	O
+phong	O	O
+kiến	O	O
+Cam-pu-chia	B-LOC	O
+luôn	O	O
+phải	O	O
+đối	O	O
+phó	O	O
+với	O	O
+những	O	O
+cuộc	O	O
+tấn	O	O
+công	O	O
+từ	O	O
+bên	O	O
+ngoài	O	O
+và	O	O
+lao	O	O
+vào	O	O
+những	O	O
+vụ	O	O
+mưu	O	O
+sát	O	O
+tranh	O	O
+giành	O	O
+địa	O	O
+vị	O	O
+lẫn	O	O
+nhau	O	O
+
+
+Tình	O	O
+hình	O	O
+diễn	O	O
+biến	O	O
+rất	O	O
+phức	O	O
+tạp	O	O
+khiến	O	O
+đất	O	O
+nước	O	O
+Cam-pu-chia	B-LOC	O
+hầu	O	O
+như	O	O
+suy	O	O
+kiệt	O	O
+khi	O	O
+thực	B-LOC	O
+dân	I-LOC	O
+Pháp	I-LOC	O
+đến	O	O
+xâm	O	O
+lược	O	O
+1863	B-TIME	O
+
+
+Trong	O	O
+hơn	O	O
+một	O	O
+nghìn	O	O
+năm	O	O
+dưới	O	O
+chế	O	O
+độ	O	O
+phong	O	O
+kiến	O	O
+người	O	O
+Cam-pu-chia	B-LOC	O
+đã	O	O
+xây	O	O
+dựng	O	O
+nên	O	O
+một	O	O
+nền	O	O
+văn	O	O
+hóa	O	O
+riêng	O	O
+hết	O	O
+sức	O	O
+độc	O	O
+đáo	O	O
+
+
+Đất	O	O
+nước	O	O
+Lào	B-LOC	O
+ngày	O	O
+nay	O	O
+gắn	O	O
+liền	O	O
+với	O	O
+dòng	O	O
+sông	B-LOC	O
+Mê	I-LOC	O
+Công	I-LOC	O
+
+
+Sông	B-LOC	O
+Mê	I-LOC	O
+Công	I-LOC	O
+vừa	O	O
+là	O	O
+nguồn	O	O
+tài	O	O
+nguyên	O	O
+thủy	O	O
+văn	O	O
+dồi	O	O
+dào	O	O
+trục	O	O
+giao	O	O
+thông	O	O
+của	O	O
+đất	O	O
+nước	O	O
+vừa	O	O
+là	O	O
+yếu	O	O
+tố	O	O
+của	O	O
+sự	O	O
+thống	O	O
+nhất	O	O
+Lào	B-LOC	O
+về	O	O
+mặt	O	O
+địa	O	O
+lí	O	O
+
+
+Đồng	O	O
+bằng	O	O
+ven	O	O
+sông	O	O
+tuy	O	O
+hẹp	O	O
+nhưng	O	O
+màu	O	O
+mỡ	O	O
+là	O	O
+vựa	O	O
+lúa	O	O
+của	O	O
+Lào	B-LOC	O
