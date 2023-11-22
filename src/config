@@ -1,7 +1,7 @@
 # Paths To Datasets And Evaluation
 
-path_train : /content/layered_bilstm_crf/src/dataset/nested_vnhistory.conll
-path_dev : /content/layered_bilstm_crf/src/dataset/nested_vnhistory.conll
+path_train : /content/layered_bilstm_crf/src/dataset/v2.0_nested_vnhistory.conll
+path_dev : /content/layered_bilstm_crf/src/dataset/v2.0_nested_vnhistory.conll
 #path_test : ../src/dataset/test.data
 
 path_eval_result : /content/layered_bilstm_crf/evaluation
