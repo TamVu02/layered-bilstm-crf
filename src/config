@@ -1,7 +1,7 @@
 # Paths To Datasets And Evaluation
 
-path_train : /content/layered_bilstm_crf/src/dataset/v2.1_nested_vnhistory.conll
-path_dev : /content/layered_bilstm_crf/src/dataset/v2.1_nested_vnhistory.conll
+path_train : /content/layered_bilstm_crf/src/dataset/v2.2_nested_vnhistory_train.conll
+path_dev : /content/layered_bilstm_crf/src/dataset/v2.2_nested_vnhistory_test.conll
 #path_test : ../src/dataset/test.data
 
 path_eval_result : /content/layered_bilstm_crf/evaluation
@@ -15,7 +15,7 @@ early_stopping : 5
 
 # Model Settings
 epoch : 30
-replace_digit : true
+replace_digit : false
 lowercase : false
 use_singletons : true
 
@@ -26,7 +26,7 @@ path_pre_emb : /content/drive/MyDrive/AI_Vũ Lê Băng Tâm/Intern/Week 9 (1
 word_embedding_dim : 100
 char_embedding_dim : 25
 tag_embedding_dim : 5
-batch_size : 10
+batch_size : 16
 
 # Hyperparameters
 dropout_ratio : 0.25
@@ -40,6 +40,6 @@ mode : 'train'
 mappings_path : /content/layered_bilstm_crf/evaluation/mappings.pkl
 
 # Evaluation
-path_model : /content/layered_bilstm_crf/result/nester_ner_model_611
+path_model : /content/layered_bilstm_crf/result/nester_ner_2311
 script_folder : /content/layered_bilstm_crf/script/
 result_folder : /content/layered_bilstm_crf/result/
