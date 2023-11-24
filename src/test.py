@@ -73,11 +73,11 @@ def main(config_path):
     args = parse_config(config_path)
 
     # Load sentences
-    all_sentences = load_sentences(args["path_dev"], args["replace_digit"])
-    random.shuffle(all_sentences)
-    total_sample = len(all_sentences)
-    ratio = (int)(total_sample*90/100)
-    test_sentences=all_sentences[ratio:]
+    test_sentences = load_sentences(args["path_dev"], args["replace_digit"])
+    # random.shuffle(all_sentences)
+    # total_sample = len(all_sentences)
+    # ratio = (int)(total_sample*90/100)
+    # test_sentences=all_sentences[ratio:]
 
     '''
     test_sentences=[[['Trong','O','O','O','O'],
