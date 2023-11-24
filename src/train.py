@@ -31,12 +31,12 @@ def main(config_path):
     args = parse_config(config_path)
 
     # Load sentences
-    all_sentences = load_sentences(args["path_train"], args["replace_digit"])
-    random.shuffle(all_sentences)
-    total_sample = len(all_sentences)
-    ratio = (int)(total_sample*90/100)
-    train_sentences=all_sentences[:ratio]
-    dev_sentences = all_sentences[ratio:]
+    # all_sentences = load_sentences(args["path_train"], args["replace_digit"])
+    # random.shuffle(all_sentences)
+    # total_sample = len(all_sentences)
+    # ratio = (int)(total_sample*90/100)
+    train_sentences = load_sentences(args["path_train"], args["replace_digit"])
+    dev_sentences = load_sentences(args["path_dev"], args["replace_digit"])
 
     # Update tagging scheme (IOB/IOBES)
     update_tag_scheme(train_sentences, args["tag_scheme"])
