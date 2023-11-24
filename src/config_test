@@ -40,6 +40,6 @@ mode : 'test'
 mappings_path : /content/layered_bilstm_crf/evaluation/mappings_2411.pkl
 
 # Evaluation
-path_model : /content/layered_bilstm_crf/result/nester_ner_2411
+path_model : /content/layered_bilstm_crf/result/nested_ner_2411
 script_folder : /content/layered_bilstm_crf/script/
 result_folder : /content/layered_bilstm_crf/result/
